@@ -11,7 +11,8 @@ __pycache__/
 *.so
 
 #
-01.Data/01.Raw
+01.Data/01.Raw/*
+!01.Data/01.Raw/.keep
 
 # Distribution / packaging
 .Python
