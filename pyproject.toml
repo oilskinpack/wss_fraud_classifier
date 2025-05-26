@@ -1,0 +1,21 @@
+[project]
+name = "wss_fraud_classifier"
+version = "0.1.0"
+description = "Пакет для определения некорректных элементов ВИС"
+authors = [
+    { name = "Никита Хабаров", email = "khabarov.n.e@yandex.ru" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["03.Src", "04.Configs"]
+
+[tool.setuptools.package-dir]
+"" = "03.Src"
+"configs" = "04.Configs"

@@ -1,0 +1,18 @@
+Алгоритм: 
+<class 'sklearn.ensemble._gb.GradientBoostingClassifier'>
+
+Тестируемый диапазон: 
+{'estimator__max_depth': [8], 'estimator__max_features': [None], 'estimator__min_samples_leaf': [1], 'estimator__min_samples_split': [8], 'estimator__n_estimators': [80]}
+
+Лучшие параметры: 
+{'max_depth': 8, 'max_features': None, 'min_samples_leaf': 1, 'min_samples_split': 8, 'n_estimators': 80}
+
+Репорт: 
+              precision    recall  f1-score   support
+
+           0       0.99      0.99      0.99      2892
+           1       0.96      0.96      0.96       736
+
+    accuracy                           0.98      3628
+   macro avg       0.98      0.98      0.98      3628
+weighted avg       0.98      0.98      0.98      3628

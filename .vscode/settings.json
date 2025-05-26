@@ -1,0 +1,3 @@
+{
+    "python.analysis.extraPaths": ["./03.Src","./04.Configs"]
+}
